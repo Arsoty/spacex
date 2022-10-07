@@ -1,0 +1,19 @@
+.navItem:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  opacity: 0;
+
+  background-color: white;
+
+  top: 100%;
+  left: 0;
+  z-index: 1;
+
+  transition: opacity 0.2s linear;
+}
+
+.navItem:hover:after {
+  opacity: 1;
+}

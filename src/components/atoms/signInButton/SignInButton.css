@@ -1,0 +1,20 @@
+.signInBtn {
+  height: 53px;
+  width: 163px;
+  background-color: #d3eaff;
+  border: none;
+  font-family: Syne;
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.1s linear;
+}
+
+.signInBtn:hover {
+  background-color: #5d96cb;
+}
+
+.signInBtn:active {
+  transform: scale(0.9);
+}
